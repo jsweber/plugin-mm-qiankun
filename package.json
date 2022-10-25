@@ -1,0 +1,57 @@
+{
+  "name": "plugin-mm-qiankun",
+  "version": "0.1.0",
+  "description": "umi plugin for qiankun",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "start": "npm-run-all --parallel start:*",
+    "start:master": "cd examples/master && umi dev",
+    "start:app1": "cd examples/app1 && umi dev",
+    "start:app2": "cd examples/app2 && umi dev",
+    "start:app3": "cd examples/app3 && umi dev",
+    "start:app4": "cd examples/app4 && umi dev"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsweber/plugin-mm-qiankun.git"
+  },
+  "keywords": [
+    "umi"
+  ],
+  "authors": [
+    {
+      "name": "duxiaoqing",
+      "email": "duxiaoqing@pjlab.org.cn"
+    }
+  ],
+  "license": "MIT",
+  "bugs": "http://github.com/umijs/plugins/issues",
+  "homepage": "https://github.com/umijs/plugins/tree/master/packages/plugin-qiankun#readme",
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "umi": "^3.2.21",
+    "webpack": "^4.41.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.5",
+    "address": "^1.1.2",
+    "http-proxy-middleware": "^2.0.3",
+    "lodash": "^4.17.15",
+    "path-to-regexp": "^1.7.0",
+    "qiankun": "^2.2.1"
+  },
+  "devDependencies": {
+    "mockjs": "^1.0.1-beta3",
+    "npm-run-all": "^4.1.5",
+    "umi-request": "^1.1.0"
+  }
+}

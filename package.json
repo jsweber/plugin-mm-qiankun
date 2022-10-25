@@ -1,6 +1,6 @@
 {
   "name": "plugin-mm-qiankun",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "umi plugin for qiankun",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -36,7 +36,7 @@
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "umi": "^3.2.21",
-    "webpack": "^4.41.0"
+    "webpack": "^5.0.0"
   },
   "publishConfig": {
     "access": "public"
